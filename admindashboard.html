@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="admindashboard.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body onload="run()">
+    <section id="nav" style="display: flex;">
+        <div> <li id="menu"><i class="fa-solid fa-bars"></i></li></div>
+        <div>
+        <input id="search0" type="text" placeholder="Search">
+        <i id="search" class="fa-solid fa-magnifying-glass"></i>
+        </div>
+        <div><i id="bell" class="fa-solid fa-bell"></i></div>
+        <div><i id="logo" class="fa-regular fa-heart"></i></div>
+    </section>
+    <aside id="A">
+        <ul>
+            
+            <li><img src="https://wallpapercave.com/wp/wp2787321.jpg"></li>
+            <li>
+                <a><i  class="fa-solid fa-table-columns"></i></a>
+                <a >Dashboard</a>
+            </li>
+            <li>
+                <a><i  class="fa-regular fa-newspaper"></i></a>
+                <a >Articles</a>
+            </li>
+            <li>
+                <a><i class="fa-solid fa-hotel"></i></a>
+                <a>Report</a>
+            </li>
+            <li>
+                <a><i class="fa-solid fa-building-columns"></i></a>
+                <a>Institution</a>
+            </li>
+            <li>
+                <a><i  class="fa-regular fa-user"></i></a>
+                <a>Profiles</a>
+            </li>
+            <li>
+                <a><i class="fa-solid fa-gear"></i></a>
+                <a>Settings</a>
+            </li>
+            <li>
+                <a><i  class="fa-solid fa-right-from-bracket"></i></a>
+                <a>Log out</a>
+            </li>
+        </ul>
+    </aside>
+
+    <div id="main">
+        <div id="B" style="display: flex;"><a style="font-size: 25px; color: white; ">60.5k</a>
+            <a style="font-size: 25px; color: white; margin-left: 15px;"><i class="fa-regular fa-eye"></i></a>
+        </div>
+        <div style="display: flex;">
+            <a style="font-size: 25px; color: white;">150</a>
+            <a style="font-size: 25px; color: white; margin-left: 15px;"><i class="fa-solid fa-thumbs-up"></i></a>
+        </div>
+        <div style="display: flex;">
+            <a style="font-size: 25px; color: white;">320</a>
+            <a style="font-size: 25px; color: white; margin-left: 15px;"><i class="fa-solid fa-comment"></i></a>
+        </div>
+        <div style="display: flex;">
+            <a style="font-size: 25px; color: white;">70</a>
+            <a style="font-size: 25px; color: white; margin-left: 15px;"><i class="fa-brands fa-cloudversify"></i></a>
+        </div>
+    </div>
+
+    <section  id="hero">
+        <div>
+            <a style="font-size: 25px; margin-left: 20px;">Recent Articles</a>
+            <a><button style="margin-left: 700px; font-size: 17px; background-color: blue; color: white;">View All</button></a><hr>
+            <p id="content">
+            <a style="padding-left: 30px; font-size: 20px;"><b>Article</b></a>
+            <a style="padding-left: 220px; font-size: 20px;"><b>Views</b></a>
+            <a style="padding-left: 230px; font-size: 20px;"><b>Comments</b></a>
+            <a style="padding-left: 210px; font-size: 20px;"><b>Status</b></a>
+            </p>
+            <p>
+                <!-- <a>Art</a> -->
+            </p>
+        </div>
+    </section>
+
+    <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+    <script src="./admindashboard.js"></script>
+</body>
+</html>
